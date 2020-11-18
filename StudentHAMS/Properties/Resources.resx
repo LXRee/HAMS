@@ -139,4 +139,16 @@
   <data name="链接" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\链接.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="保存图标" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\保存图标.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="存款图标" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\存款图标.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="开户" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\开户.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="开户小图标" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\开户小图标.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

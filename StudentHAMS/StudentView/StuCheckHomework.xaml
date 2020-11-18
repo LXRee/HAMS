@@ -34,7 +34,7 @@
                     <TextBlock x:Name="exit2" VerticalAlignment="Center" RenderTransformOrigin="0.47,1.481" FontWeight="SemiBold"><Run Text="注销"/></TextBlock>
                 </StackPanel>
             </Button>
-            <Image Height="26.64" Canvas.Top="21.389" Width="61.333" Source="返回.png"/>
+            <Image Height="26.64" Canvas.Top="21.389" Width="61.333" Source="pack://siteoforigin:,,,/Images/返回.png"/>
         </Canvas>
         <DockPanel  HorizontalAlignment="Left" Height="54" LastChildFill="False" Grid.Row="1" VerticalAlignment="Top" Width="793" Margin="0,1.333,0,0">
             <Menu x:Name="menu" Background="LightPink" HorizontalAlignment="Left" Height="55.463" VerticalAlignment="Center" Width="794.847" Grid.ColumnSpan="2" Grid.RowSpan="2" Margin="0,0,0,-1.506">

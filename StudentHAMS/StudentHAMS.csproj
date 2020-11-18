@@ -35,9 +35,51 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.3.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\lxree\Downloads\mysql-connector-net-8.0.22-noinstall\v4.8\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.11.4.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\lxree\Downloads\mysql-connector-net-8.0.22-noinstall\v4.8\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.1.11.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\lxree\Downloads\mysql-connector-net-8.0.22-noinstall\v4.8\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.1.11.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\lxree\Downloads\mysql-connector-net-8.0.22-noinstall\v4.8\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.6.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\lxree\Downloads\mysql-connector-net-8.0.22-noinstall\v4.8\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>C:\Users\lxree\Downloads\mysql-connector-net-8.0.22-noinstall\v4.8\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.EntityFramework">
+      <HintPath>C:\Users\lxree\Downloads\mysql-connector-net-8.0.22-noinstall\v4.8\MySql.Data.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web">
+      <HintPath>C:\Users\lxree\Downloads\mysql-connector-net-8.0.22-noinstall\v4.8\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Renci.SshNet">
+      <HintPath>C:\Users\lxree\Downloads\mysql-connector-net-8.0.22-noinstall\v4.8\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="SshNet.Security.Cryptography">
+      <HintPath>C:\Users\lxree\Downloads\mysql-connector-net-8.0.22-noinstall\v4.8\SshNet.Security.Cryptography.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Buffers">
+      <HintPath>C:\Users\lxree\Downloads\mysql-connector-net-8.0.22-noinstall\v4.8\System.Buffers.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\lxree\Downloads\mysql-connector-net-8.0.22-noinstall\v4.8\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -47,11 +89,17 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
+    <Reference Include="Ubiety.Dns.Core">
+      <HintPath>C:\Users\lxree\Downloads\mysql-connector-net-8.0.22-noinstall\v4.8\Ubiety.Dns.Core.dll</HintPath>
+    </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="WPFVisifire.Charts">
       <HintPath>..\..\..\..\wpfvisifire\WPFVisifire.Charts\X86\4.5.2.1\WPFVisifire.Charts.dll</HintPath>
+    </Reference>
+    <Reference Include="Zstandard.Net">
+      <HintPath>C:\Users\lxree\Downloads\mysql-connector-net-8.0.22-noinstall\v4.8\Zstandard.Net.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -59,6 +107,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="StudentView\StuCheckHomework.xaml.cs">
       <DependentUpon>StuCheckHomework.xaml</DependentUpon>
     </Compile>
@@ -118,11 +171,6 @@
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -147,25 +195,37 @@
     <Folder Include="StudentService\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\1200856.gif" />
+    <None Include="Resources\1200856.gif" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\bk_create.jpg" />
+    <None Include="Resources\bk_create.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\management.jpg" />
+    <None Include="Resources\management.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\resizeApi.png" />
+    <None Include="Resources\resizeApi.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\Screenshot_2020_1109_160715.png" />
+    <None Include="Resources\Screenshot_2020_1109_160715.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\返回.png" />
+    <None Include="Resources\返回.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\链接.png" />
+    <None Include="Resources\链接.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\保存图标.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\存款图标.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\开户.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\开户小图标.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:StudentHAMS"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Margin="0,0,0.333,-19.333">
+        <Button Content="mysql数据库连接测试" HorizontalAlignment="Left" Margin="326,195,0,0" VerticalAlignment="Top" Width="132" Height="60" Click="Button_Click"/>
+
     </Grid>
 </Window>
